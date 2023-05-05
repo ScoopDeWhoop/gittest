@@ -1,0 +1,27 @@
+Main.py: inside main.py there is class Main that include class Enum_Main with enum for the actions, inside class main there is 2 functions
+1.run_menu - a loop that made to navigate through all of the project, includes 13 options
+2.return_menu - used to return to run_menu incase you dont want to exit from the code
+
+Books.py: inside books.py there is class Books that include inside book list for using it in other functions, __init__ function and
+4 more functions:
+1.new_book - this function used to add new book to book list by the user input in the needed format
+2.display_books - used to show all the books in the book list 
+3.find_book - used to search for specifc book or to search all the books with the specifc letter
+4.remove_book - used to remove specifc book from the book list
+
+Customers.py: inside customers.py there is class Customers that include inside customers list for using it in other functions,
+ __init__ function and 4 more functions:
+1.new_customer - used to add new customer to customer list by the user input in the needed format
+2.display_customers - used to show all the customers in the customer list 
+3.find_customer - used to search for specifc customer or to search all the customers with the specifc letter
+4.remove_customer - used to remove specifc customer from the customers list
+
+Loan.py: inside loans.py there is class LoanType that used for enum for the loan type, there is loans list,date for the loans,
+ __init__ function and 4 more functions:
+1.loan_a_book - used to add new loan based with input of customer id and book id if they exist and and the book id is not loaned
+then you loan the book and the return date based on the loan type of the book
+2.return_a_book- used to return a book and closing the loan in the loan list
+3.display_all_loans - used to show each loan that exist in loan list
+4.display_late_loans - used to show all the late by  return date loans
+
+

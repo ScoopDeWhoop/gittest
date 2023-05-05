@@ -1,0 +1,1 @@
+[{"Customer_Id": 1, "Book_Id": 3, "Loan_date": "10.03.2023", "Return_date": "20.03.2023"}, {"Customer_Id": 10, "Book_Id": 1, "Loan_date": "14.03.2023", "Return_date": "24.03.2023"}, {"Customer_Id": 7, "Book_Id": 5, "Loan_date": "9.03.2023", "Return_date": "11.03.2023"}, {"Customer_Id": 11, "Book_Id": 85, "Loan_date": "14.03.2023", "Return_date": "16.03.2023"}]
